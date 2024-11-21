@@ -1,0 +1,57 @@
+/* Reset de Estilos */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Estilos Globais */
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #f4f4f9;
+	color: #333;
+	line-height: 1.6;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+/* Classes Utilitárias */
+.text-center {
+	text-align: center;
+}
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.p-10 {
+	padding: 10px;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+	.container {
+		width: 100%;
+		padding: 10px;
+	}
+
+	.navbar {
+		flex-direction: column;
+	}
+
+	.navbar a {
+		margin: 5px 0;
+	}
+}
